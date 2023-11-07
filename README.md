@@ -10,7 +10,7 @@ module "example" {
 
   name                         = "guard-duty-findings-ACME"
   finding_publishing_frequency = "ONE_HOUR"
-  alarm_notification_channel   = ""arn:aws:sns:us-east-1:1234567890:my-sns-notification-channel""
+  alarm_notification_channel   = "arn:aws:sns:us-east-1:1234567890:my-sns-notification-channel"
 
 }
 ```
