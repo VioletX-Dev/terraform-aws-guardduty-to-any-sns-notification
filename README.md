@@ -6,7 +6,7 @@ This module enables AWS Guard Duty and send all Guard Duty findings message to a
 
 ```
 module "example" {
-  source = "https://github.com/VioletX-Dev/terraform-aws-guardduty-to-any-sns-notification.git?ref=main"
+  source = "github.com/VioletX-Dev/terraform-aws-guardduty-to-any-sns-notification?ref=main"
 
   name                         = "guard-duty-findings-ACME"
   finding_publishing_frequency = "ONE_HOUR"
