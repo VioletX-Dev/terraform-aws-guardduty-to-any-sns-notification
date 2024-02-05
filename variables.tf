@@ -14,3 +14,9 @@ variable "alarm_notification_channel" {
   description = "It's a SNS ARN that might send emails, page your Incident Response tool (Pager Duty, OpsGenie, VitorOps, etc)"
   type        = string
 }
+
+variable "has_kubernetes" {
+  description = "If you have Kubernetes cluster set `true`."
+  type = bool
+  default = false
+}
